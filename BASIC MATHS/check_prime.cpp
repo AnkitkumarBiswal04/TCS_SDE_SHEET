@@ -15,5 +15,11 @@ int main(){
     int n;
     cin>>n;
     cout<<"To check whether it is prime or not:"<<checkPrime(n)<<endl;
+    if(checkPrime(n)){
+        cout<<"It  is prime";
+    }
+    else{
+        cout<<"not prime";
+    }
     return 0;
 }
